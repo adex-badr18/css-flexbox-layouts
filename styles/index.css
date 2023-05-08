@@ -2,7 +2,9 @@ html {
     box-sizing: border-box;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
@@ -30,3 +32,23 @@ html {
 .login {
     margin-left: 20px;
 }
+
+/* HEADER */
+.header-container {
+    display: flex;
+    justify-content: center;
+    color: #5995DA;
+    background-color: #D6E9FE;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo,
+.social,
+.subscribe {}
