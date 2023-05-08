@@ -1,1 +1,1 @@
-5 responsive layouts with CSS Flexbox
+6 responsive layouts with CSS Flexbox
