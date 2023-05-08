@@ -49,6 +49,12 @@ html {
     align-items: center;
 }
 
+.social,
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
 /* PHOTO GRID */
 .photo-grid-container {
     display: flex;
@@ -57,12 +63,23 @@ html {
 
 .photo-grid {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 900px;
+    flex-wrap: wrap;
 }
 
 .photo-grid-item {
     border: 1px solid #fff;
     width: 300px;
     height: 300px;
+}
+
+.first-item {
+    order: 1;
+}
+
+.last-item {
+    order: -1
 }
