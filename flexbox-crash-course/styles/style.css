@@ -54,6 +54,8 @@ h1, h2, p {
     font-weight: bolder;
 }
 
+/* HEADER */
+
 header {
     background-color: #0808d8;
     display: flex;
@@ -79,4 +81,41 @@ header p {
 header img {
     width: 450px;
     height: auto;
+}
+
+/* BOXES */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 0;
+    height: 400px;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    background-color: #0808d8;
+    padding: 16px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.box h2 i {
+    padding-right: 10px;
+}
+
+.box h2 {
+    font-size: 20px;
+    font-weight: bold;
 }
