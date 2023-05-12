@@ -9,8 +9,10 @@ html {
 }
 
 body {
-    background-color: #8ea8f0;
+    background-color: #a1c3ff;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 ul {
@@ -29,16 +31,23 @@ ul.nav li a {
     font-weight: 600;
 }
 
+ul.nav a:hover {
+    color: lightblue;
+}
+
 nav {
-    background-color: #0808d89a;
+    background-color: #3474e6;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
+    height: 60px;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
     color: #ffffff;
 }
 
@@ -46,7 +55,7 @@ h1, h2, p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 75%;
 }
 
 .logo {
@@ -57,22 +66,24 @@ h1, h2, p {
 /* HEADER */
 
 header {
-    background-color: #0808d8;
+    background-color: #0a51cc;
     display: flex;
     justify-content: center;
+    min-height: 400px;
 }
 
 header .container {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
-    gap: 10em;
+    /* gap: 40px; */
 }
 
 header h1 {
     margin-bottom: 18px;
-    font-size: 40px;
-    font-weight: 900;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 header p {
@@ -82,7 +93,7 @@ header p {
 }
 
 header img {
-    max-width: 100%;
+    max-width: 400px;
     height: auto;
     /* border: 1px solid red; */
 }
@@ -113,8 +124,8 @@ section .container {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
-    background-color: #0808d8;
-    padding: 16px;
+    background-color: #0a51cc;
+    padding: 15px 20px;
     border-radius: 10px;
     flex: 1;
 }
