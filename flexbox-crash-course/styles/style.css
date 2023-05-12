@@ -66,6 +66,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
+    gap: 10em;
 }
 
 header h1 {
@@ -83,6 +84,7 @@ header p {
 header img {
     max-width: 100%;
     height: auto;
+    /* border: 1px solid red; */
 }
 
 .hero {
