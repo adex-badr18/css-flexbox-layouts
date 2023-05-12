@@ -64,11 +64,13 @@ header {
 
 header .container {
     display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
 }
 
 header h1 {
     margin-bottom: 18px;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 900;
 }
 
@@ -79,8 +81,12 @@ header p {
 }
 
 header img {
-    width: 450px;
+    max-width: 100%;
     height: auto;
+}
+
+.hero {
+    flex: 1;
 }
 
 /* BOXES */
