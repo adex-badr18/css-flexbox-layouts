@@ -7,3 +7,45 @@ html {
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #8ea8f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul.nav li {
+    padding-left: 24px;
+}
+
+ul.nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav {
+    background-color: #0808d89a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
