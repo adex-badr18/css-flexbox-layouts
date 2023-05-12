@@ -1,1 +1,1 @@
-6 responsive layouts with CSS Flexbox
+# CSS FLEXBOX LAYOUT COURSES
