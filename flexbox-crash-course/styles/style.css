@@ -125,7 +125,7 @@ section .container {
     align-items: flex-start;
     gap: 16px;
     background-color: #0a51cc;
-    padding: 15px 20px;
+    padding: 20px;
     border-radius: 10px;
     flex: 1;
 }
